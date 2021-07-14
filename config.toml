@@ -1,4 +1,10 @@
+title = "Cliq"
 baseURL = "https://cliqteam.github.io/blog/"
 languageCode = "en-us"
-title = "My New Hugo Site"
 theme = "beautifulhugo"
+
+[Params]
+subtitle = "Building beautiful and simple applications"
+#   logo = "img/avatar-icon.png" # Expecting square dimensions
+#   favicon = "img/favicon.ico"
+dateFormat = "January 2, 2006"
