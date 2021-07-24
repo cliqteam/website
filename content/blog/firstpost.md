@@ -5,8 +5,4 @@ tags: ["Aspirations","dreams","goals","business","entreprenuer","technology"]
 
 # Visualize your dreams
 
-Cliq
-
-## Visualize your dreams
-
-Hello
+Every child has a dream. Determination, networking, and sometimes a little bit of luck can help you turn this dream into reality. 
