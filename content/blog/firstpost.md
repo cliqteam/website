@@ -1,6 +1,6 @@
 ---
 name: Dreams
-tags: ["Aspirations","dreams","goals",business","entreprenuer","technology"]
+tags: ["Aspirations","dreams","goals","business","entreprenuer","technology"]
 ---
 
 # Visualize your dreams
