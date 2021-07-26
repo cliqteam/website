@@ -1,4 +1,4 @@
-title = "Cliq Blog"
+title = "Cliq"
 baseURL = "https://cliqteam.github.io/blog/"
 languageCode = "en-us"
 theme = "beautifulhugo"
