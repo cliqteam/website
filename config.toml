@@ -1,10 +1,10 @@
-title = "Cliq"
+title = "Cliq Blog"
 baseURL = "https://cliqteam.github.io/blog/"
 languageCode = "en-us"
 theme = "beautifulhugo"
 
 [Params]
-subtitle = "Building beautiful and simple applications"
+subtitle = "Follow our Journey to Building Beautiful and Simple Applications"
 #   logo = "img/avatar-icon.png" # Expecting square dimensions
 #   favicon = "img/favicon.ico"
 dateFormat = "January 2, 2006"
