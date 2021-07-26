@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+{{ "now" | date: site.date_format }}
 draft: true
 ---
 
