@@ -4,7 +4,7 @@ languageCode = "en-us"
 theme = "beautifulhugo"
 
 [Params]
-subtitle = "Follow our Journey to Building Beautiful and Simple Applications"
+subtitle = "Follow our Tech Journey"
 #   logo = "img/avatar-icon.png" # Expecting square dimensions
 #   favicon = "img/favicon.ico"
 date_format = "%Y-%m-%d %H:%M"
