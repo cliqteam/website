@@ -2,10 +2,9 @@ title = "Cliq Blog"
 baseURL = "https://cliqteam.github.io/blog/"
 languageCode = "en-us"
 theme = "beautifulhugo"
-date_format: "%Y-%m-%d %H:%M"
 
 [Params]
 subtitle = "Follow our Journey to Building Beautiful and Simple Applications"
 #   logo = "img/avatar-icon.png" # Expecting square dimensions
 #   favicon = "img/favicon.ico"
-dateFormat = "January 2, 2006"
+date_format: "%Y-%m-%d %H:%M"
