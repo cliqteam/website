@@ -7,4 +7,4 @@ theme = "beautifulhugo"
 subtitle = "Follow our Journey to Building Beautiful and Simple Applications"
 #   logo = "img/avatar-icon.png" # Expecting square dimensions
 #   favicon = "img/favicon.ico"
-date_format: "%Y-%m-%d %H:%M"
+date_format = "%Y-%m-%d %H:%M"
