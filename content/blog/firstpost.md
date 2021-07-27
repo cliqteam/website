@@ -11,4 +11,6 @@ In my personal life, I dream of advernturing around the world, experiencing new 
 
 This blog will be useful for anyone who also dreams of starting their business but might not know the rights things to do and when to do them. Looking forward to seeing successes from everyone who is involved in our journey! 
 
+
+Break: Post 2 Beginning
 When starting this company, as any normal person would, I googled "How to start a business" of starting a business and the persomal experiences myself and
