@@ -8,3 +8,9 @@ subtitle = "Follow our Tech Journey"
 #   logo = "img/avatar-icon.png" # Expecting square dimensions
 #   favicon = "img/favicon.ico"
 date_format = "%Y-%m-%d %H:%M"
+
+[Author]
+name = "Cliq"
+website = "https://cliqteam.github.io/blog/"
+# email = "cliq@gmail.com"
+github = "cliqteam"
