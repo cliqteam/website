@@ -1,5 +1,7 @@
 ---
-name: Dreams
+title: Dreams
+date: 2021-07-27
+author: Cole
 tags: ["Aspirations","dreams","goals","business","entreprenuer","technology"]
 ---
 
