@@ -91,7 +91,7 @@ of Django templates (nice as they may have been 10 years ago).
 The **docker** folder is a space for Docker images and their related resources.
 We currently use `Dockerfile.local` for local images that are primarily for
 dependency isolation and all our code is mounted with volumes to containers to
-allow for rapid development that would be severly hindered by needing to rebuild
+allow for rapid development that would be severely hindered by needing to rebuild
 images. `Dockerfile.prod` uses multi-stage builds and planned layering to reduce image
 size and complexity. This is used in our staging and production environments.
 
@@ -372,8 +372,8 @@ push your code and see green check marks is very reassuring and having those
 changes automatically deployed gives my poor sysadmin hands a break from all the
 typing. I hope to hone and improve this projects CI/CD and code structure over
 time and carry this on into our future projects. One change that was recommended
-to me by a collegue before even initializing the repository was splitting the
-backend and frontend into seperate repos. This seemed excessive to me at the
+to me by a colleague before even initializing the repository was splitting the
+backend and frontend into separate repos. This seemed excessive to me at the
 time but as more and more complexity build in the app I've started to see the
 potential benefits.
 
