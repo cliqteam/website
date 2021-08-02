@@ -380,5 +380,5 @@ potential benefits.
 In any case, we'll see where this project goes and when it is complete how
 effective these strategies were at facilitating agile software development!
 
-Questions or comments? Send an email to <mailto:cliq@myusc.net> and let us know
-if you have a product idea or comments about an existing product.
+Questions or comments? [Send an email to us](mailto:cliq@myusc.net) and let us
+know if you have a product idea or comments about an existing product.
