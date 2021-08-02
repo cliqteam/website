@@ -3,7 +3,7 @@ title: Bootstrapping Our 12 Factor App with GitHub Actions, Docker Compose, and 
 date: 2021-08-02
 author: Jack Polk
 tags: ["devlog", "ci", "12factor"]
-draft: true
+draft: false
 ---
 
 I love the problem solving that comes along with programming applications. But I
