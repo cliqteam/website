@@ -13,5 +13,5 @@ What do you do when you have a homework assignment that you don't know how to ap
  
 Once you understand the problem, you segment your research into multiple sections to make it manageable and ensure you are not missing any steps that will provide you with the end result you are looking for. 
 
-#### Translate this process into your business idea
+### Translate this process into your business idea
 You can view a starting a business in the same light as doing this homework assignment. Since I had never started or been a part of a company from it's inception, I had no previous knowledge - frankly I had no idea how to start.
