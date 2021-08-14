@@ -10,7 +10,6 @@ What do you do when you have a homework assignment that you don't know how to ap
 - How many steps are needed to solve a problem like this? 
 - Are there resources I can use to learn this information? 
 - Is there a proven method that has given the desired result before? 
-- Can it be successfully replicated? 
  
 Once you understand the problem, you segment your research into multiple sections to make it manageable and ensure you are not missing any steps that will provide you with the end result you are looking for. 
 
