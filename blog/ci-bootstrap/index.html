@@ -3,23 +3,23 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
-<title>Bootstrapping Our 12 Factor App with GitHub Actions, Docker Compose, and Digital Ocean - Cliq</title>
+<title>Bootstrapping Our 12 Factor App with GitHub Actions, Docker Compose, and Digital Ocean - CLIQ</title>
 <meta name=description content="I love the problem solving that comes along with programming applications. But I also love the problem solving required to deploy and scale those applications. For the past 10 years of my life, I have invested immense amounts of time into not only learning how to program but how to administer Linux machines and deploy applications onto those machines. My perfectionism has not allowed me to stick with conventional methods and I have only begun to scratch the surface of cloud applications and technologies such as CI/CD, containers, container orchestration, and about a 100 other topics I have to learn about.">
-<meta name=author content="Cliq"><script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","name":"Cliq","url":"https:\/\/cliqteam.github.io\/blog\/"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Organization","name":"","url":"https:\/\/cliqteam.github.io\/blog\/"}</script>
-<script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/cliqteam.github.io\/blog\/","name":"home"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/cliqteam.github.io\/blog\/blog\/ci-bootstrap\/","name":"Bootstrapping our 12 factor app with git hub actions, docker compose, and digital ocean"}}]}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"name":"Jack Polk"},"headline":"Bootstrapping Our 12 Factor App with GitHub Actions, Docker Compose, and Digital Ocean","description":"I love the problem solving that comes along with programming applications. But I also love the problem solving required to deploy and scale those applications. For the past 10 years of my life, I have invested immense amounts of time into not only learning how to program but how to administer Linux machines and deploy applications onto those machines. My perfectionism has not allowed me to stick with conventional methods and I have only begun to scratch the surface of cloud applications and technologies such as CI\/CD, containers, container orchestration, and about a 100 other topics I have to learn about.","inLanguage":"en","wordCount":1836,"datePublished":"2021-08-02T00:00:00","dateModified":"2021-08-02T00:00:00","image":"https:\/\/cliqteam.github.io\/blog\/","keywords":["devlog, ci, 12factor"],"mainEntityOfPage":"https:\/\/cliqteam.github.io\/blog\/blog\/ci-bootstrap\/","publisher":{"@type":"Organization","name":"https:\/\/cliqteam.github.io\/blog\/","logo":{"@type":"ImageObject","url":"https:\/\/cliqteam.github.io\/blog\/","height":60,"width":60}}}</script>
+<meta name=author content="CLIQ"><script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","name":"CLIQ","url":"https:\/\/cliqteam.com\/"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Organization","name":"","url":"https:\/\/cliqteam.com\/"}</script>
+<script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/cliqteam.com\/","name":"home"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/cliqteam.com\/blog\/ci-bootstrap\/","name":"Bootstrapping our 12 factor app with git hub actions, docker compose, and digital ocean"}}]}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"name":"Jack Polk"},"headline":"Bootstrapping Our 12 Factor App with GitHub Actions, Docker Compose, and Digital Ocean","description":"I love the problem solving that comes along with programming applications. But I also love the problem solving required to deploy and scale those applications. For the past 10 years of my life, I have invested immense amounts of time into not only learning how to program but how to administer Linux machines and deploy applications onto those machines. My perfectionism has not allowed me to stick with conventional methods and I have only begun to scratch the surface of cloud applications and technologies such as CI\/CD, containers, container orchestration, and about a 100 other topics I have to learn about.","inLanguage":"en","wordCount":1836,"datePublished":"2021-08-02T00:00:00","dateModified":"2021-08-02T00:00:00","image":"https:\/\/cliqteam.com\/","keywords":["devlog, ci, 12factor"],"mainEntityOfPage":"https:\/\/cliqteam.com\/blog\/ci-bootstrap\/","publisher":{"@type":"Organization","name":"https:\/\/cliqteam.com\/","logo":{"@type":"ImageObject","url":"https:\/\/cliqteam.com\/","height":60,"width":60}}}</script>
 <meta property="og:title" content="Bootstrapping Our 12 Factor App with GitHub Actions, Docker Compose, and Digital Ocean">
 <meta property="og:description" content="I love the problem solving that comes along with programming applications. But I also love the problem solving required to deploy and scale those applications. For the past 10 years of my life, I have invested immense amounts of time into not only learning how to program but how to administer Linux machines and deploy applications onto those machines. My perfectionism has not allowed me to stick with conventional methods and I have only begun to scratch the surface of cloud applications and technologies such as CI/CD, containers, container orchestration, and about a 100 other topics I have to learn about.">
-<meta property="og:url" content="https://cliqteam.github.io/blog/blog/ci-bootstrap/">
+<meta property="og:url" content="https://cliqteam.com/blog/ci-bootstrap/">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Cliq">
+<meta property="og:site_name" content="CLIQ">
 <meta name=twitter:title content="Bootstrapping Our 12 Factor App with GitHub Actions, Docker Compose, …">
 <meta name=twitter:description content="I love the problem solving that comes along with programming applications. But I also love the problem solving required to deploy and scale those applications. For the past 10 years of my life, I have …">
 <meta name=twitter:card content="summary">
-<meta name=generator content="Hugo 0.86.1">
-<link rel=alternate href=https://cliqteam.github.io/blog/index.xml type=application/rss+xml title=Cliq><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css integrity=sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y crossorigin=anonymous>
+<meta name=generator content="Hugo 0.88.1">
+<link rel=alternate href=https://cliqteam.com/index.xml type=application/rss+xml title=CLIQ><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css integrity=sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y crossorigin=anonymous>
 <link rel=stylesheet href=https://use.fontawesome.com/releases/v5.5.0/css/all.css integrity=sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU crossorigin=anonymous>
-<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous><link rel=stylesheet href=https://cliqteam.github.io/blog/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"><link rel=stylesheet href=https://cliqteam.github.io/blog/css/syntax.css><link rel=stylesheet href=https://cliqteam.github.io/blog/css/codeblock.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css integrity=sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh crossorigin=anonymous>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous><link rel=stylesheet href=https://cliqteam.com/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"><link rel=stylesheet href=https://cliqteam.com/css/syntax.css><link rel=stylesheet href=https://cliqteam.com/css/codeblock.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css integrity=sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh crossorigin=anonymous>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css integrity=sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R crossorigin=anonymous>
 </head>
 <body>
@@ -32,7 +32,7 @@
 <span class=icon-bar></span>
 <span class=icon-bar></span>
 </button>
-<a class=navbar-brand href=https://cliqteam.github.io/blog/>Cliq</a>
+<a class=navbar-brand href=https://cliqteam.com/>CLIQ</a>
 </div>
 <div class="collapse navbar-collapse" id=main-navbar>
 <ul class="nav navbar-nav navbar-right">
@@ -125,7 +125,7 @@ programming language, and which use any combination of backing services
 that were made while constructing the structure of this application.</p>
 <h2 id=project-structure-and-requirements>Project Structure and Requirements</h2>
 <p>The project, as of the time of writing, is structured in the following manner:</p>
-<pre><code class=language-tree data-lang=tree>├── backend
+<pre tabindex=0><code class=language-tree data-lang=tree>├── backend
 │   ├── api
 │   │   └── ...
 │   ├── config
@@ -431,14 +431,17 @@ effective these strategies were at facilitating agile software development!</p>
 <p>Questions or comments? <a href=mailto:cliq@myusc.net>Send an email to us</a> and let us
 know if you have a product idea or comments about an existing product.</p>
 <div class=blog-tags>
-<a href=https://cliqteam.github.io/blog//tags/devlog/>devlog</a>&nbsp;
-<a href=https://cliqteam.github.io/blog//tags/ci/>ci</a>&nbsp;
-<a href=https://cliqteam.github.io/blog//tags/12factor/>12factor</a>&nbsp;
+<a href=https://cliqteam.com//tags/devlog/>devlog</a>&nbsp;
+<a href=https://cliqteam.com//tags/ci/>ci</a>&nbsp;
+<a href=https://cliqteam.com//tags/12factor/>12factor</a>&nbsp;
 </div>
 </article>
 <ul class="pager blog-pager">
 <li class=previous>
-<a href=https://cliqteam.github.io/blog/blog/firstpost/ data-toggle=tooltip data-placement=top title="Be a Dreamer">&larr; Previous Post</a>
+<a href=https://cliqteam.com/blog/firstpost/ data-toggle=tooltip data-placement=top title="Be a Dreamer">&larr; Previous Post</a>
+</li>
+<li class=next>
+<a href=https://cliqteam.com/blog/secondpost/ data-toggle=tooltip data-placement=top title="Getting Started">Next Post &rarr;</a>
 </li>
 </ul>
 </div>
@@ -459,14 +462,14 @@ know if you have a product idea or comments about an existing product.</p>
 </li>
 </ul>
 <p class="credits copyright text-muted">
-<a href=https://cliqteam.github.io/blog/>Cliq</a>
+<a href=https://cliqteam.com/>CLIQ</a>
 &nbsp;&bull;&nbsp;&copy;
 2021
 &nbsp;&bull;&nbsp;
-<a href=https://cliqteam.github.io/blog/>Cliq</a>
+<a href=https://cliqteam.com/>CLIQ</a>
 </p>
 <p class="credits theme-by text-muted">
-<a href=https://gohugo.io>Hugo v0.86.1</a> powered &nbsp;&bull;&nbsp; Theme <a href=https://github.com/halogenica/beautifulhugo>Beautiful Hugo</a> adapted from <a href=https://deanattali.com/beautiful-jekyll/>Beautiful Jekyll</a>
+<a href=https://gohugo.io>Hugo v0.88.1</a> powered &nbsp;&bull;&nbsp; Theme <a href=https://github.com/halogenica/beautifulhugo>Beautiful Hugo</a> adapted from <a href=https://deanattali.com/beautiful-jekyll/>Beautiful Jekyll</a>
 </p>
 </div>
 </div>
@@ -475,7 +478,7 @@ know if you have a product idea or comments about an existing product.</p>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js integrity=sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe crossorigin=anonymous></script>
 <script src=https://code.jquery.com/jquery-1.12.4.min.js integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin=anonymous></script>
 <script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
-<script src=https://cliqteam.github.io/blog/js/main.js></script><script>renderMathInElement(document.body)</script><script src=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js integrity=sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js integrity=sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q crossorigin=anonymous></script><script src=https://cliqteam.github.io/blog/js/load-photoswipe.js></script>
+<script src=https://cliqteam.com/js/main.js></script><script>renderMathInElement(document.body)</script><script src=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js integrity=sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js integrity=sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q crossorigin=anonymous></script><script src=https://cliqteam.com/js/load-photoswipe.js></script>
 </body>
 </html>
