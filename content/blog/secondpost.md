@@ -2,7 +2,7 @@
 title: Getting Started
 date: 2021-08-10
 author: Cole Perler
-tags: ["Company","Business"."Startup","Team","Technology","Meeting","Starting a business"]
+tags: ["Company","Business","Startup","Team","Technology","Meeting","Starting a business"]
 ---
 
 What do you do when you have a homework assignment that you don't know how to approach? A surefire way to start is to look at the problem requirements and do some research. Think about some questions that can point you in the right direction. 
