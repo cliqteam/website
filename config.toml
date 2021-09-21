@@ -1,5 +1,5 @@
-title = "Cliq"
-baseURL = "https://cliqteam.github.io/blog/"
+title = "CLIQ"
+baseURL = "https://cliqteam.com/"
 languageCode = "en-us"
 theme = "beautifulhugo"
 
@@ -10,7 +10,7 @@ subtitle = "Follow our Tech Journey"
 date_format = "%Y-%m-%d %H:%M"
 
 [Author]
-name = "Cliq"
-website = "https://cliqteam.github.io/blog/"
+name = "CLIQ"
+website = "https://cliqteam.com/"
 # email = "cliq@gmail.com"
 github = "cliqteam"
